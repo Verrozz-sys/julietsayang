@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Happy Birthday 🤍</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="birthday">
+
+    <div class="photo-wall" id="photoWall">
+
+      <!-- 6 FOTO BACKGROUND -->
+      <div class="photo photo-back" data-photo="foto2.jpg"></div>
+      <div class="photo photo-back" data-photo="foto3.jpg"></div>
+      <div class="photo photo-back" data-photo="foto4.jpg"></div>
+      <div class="photo photo-back" data-photo="foto5.jpg"></div>
+      <div class="photo photo-back" data-photo="foto6.jpg"></div>
+      <div class="photo photo-back" data-photo="foto7.jpg"></div>
+
+      <!-- LIQUID GLASS RING -->
+      <div class="glass-ring"></div>
+
+      <!-- MAIN FOTO -->
+      <div class="main-photo">
+        <img src="assets/photos/foto1.jpg" alt="Main Photo">
+      </div>
+
+    </div>
+
+    <section class="intro">
+      <p class="small-text">FOR JULIET ABSEN 6 ✨</p>
+
+      <h1>
+        Happy Birthday Onyeddd
+        <span>🤍</span>
+      </h1>
+
+      <p class="subtitle">
+        Hari ulang tahun nya juliettt
+      </p>
+
+      <button id="openBtn">
+        Pencet donk
+        <span>🤍</span>
+      </button>
+    </section>
+
+<section class="music-section">
+
+  <p class="message-title">Pesan Ku</p>
+
+  <div class="music-player">
+
+    <button class="play-btn" id="playBtn">▶</button>
+
+    <div class="music-info">
+
+      <div class="song-name">
+        Lagu buat kamuu
+      </div>
+
+      <div class="progress-container" id="progressContainer">
+        <div class="progress" id="progress"></div>
+      </div>
+
+      <div class="time">
+        <span id="currentTime">0:00</span>
+        <span id="duration">0:00</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <audio id="audio" src="assets/music/lagu.mp3"></audio>
+
+</section>
+
+<section class="message-box" id="messageBox">
+
+  <div class="message-card">
+
+    <p class="message-label">A little message & a funkot song💃🏻</p>
+
+    <h2>Buat My Juliet Gweh</h2>
+
+    <p>
+      Selamat ulang tahun yaa sayanggg
+    </p>
+
+    <p>
+      Moga bisa cepet tinggi masa nambah umur ga         
+      nambah tinggi PFFTTT
+    </p>
+
+    <p class="signature">
+      — By gaeroh wes pokok funkotan💃🏻
+    </p>
+
+  </div>
+
+</section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
